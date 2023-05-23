@@ -10,3 +10,8 @@ Write a test script that simulates two actors that do the following actions:
 - Bob borrows out all the liquidity from Compound USDC contract.
     - There are some setup required : )
 - Alice tries to withdraw, what happens here?
+
+The picture belowed is what we get if we try to withdraw when Compound has no liquidity.
+---
+![image](https://github.com/ficeskele/110511078-bdaf-lab7/assets/124324882/0a2ad768-a80e-4549-b944-c3274be3b855)
+
