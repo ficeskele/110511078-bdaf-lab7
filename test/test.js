@@ -22,7 +22,7 @@ describe("Lab7 test", function(){
             params: [BOB_ADDRESS],
         });
 
-        // Get the USDC contract
+        // Get the contract
         const eth = await ethers.getContractAt("IERC20", WETH_ADDRESS);
         const USDC = await ethers.getContractAt("IERC20", USDC_ADDRESS);
         const cUSDC = await ethers.getContractAt("CometMainInterface", CUSDC_ADDRESS);
