@@ -1,0 +1,256 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\user\\BADF_Lab7\\contracts\\CometConfiguration.sol": {
+      "lastModificationDate": 1684765701795,
+      "contentHash": "98bead54c660e56fa8ae16bda5b76b42",
+      "sourceName": "contracts/CometConfiguration.sol",
+      "solcConfig": {
+        "version": "0.8.15",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CometConfiguration"
+      ]
+    },
+    "C:\\Users\\user\\BADF_Lab7\\contracts\\CometCore.sol": {
+      "lastModificationDate": 1684765843571,
+      "contentHash": "4a6b05d6a81efa01892919266d38789d",
+      "sourceName": "contracts/CometCore.sol",
+      "solcConfig": {
+        "version": "0.8.15",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./CometConfiguration.sol",
+        "./CometStorage.sol",
+        "./CometMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.15"
+      ],
+      "artifacts": [
+        "CometCore"
+      ]
+    },
+    "C:\\Users\\user\\BADF_Lab7\\contracts\\CometStorage.sol": {
+      "lastModificationDate": 1684765672085,
+      "contentHash": "5b74d0343169dfe261e83cbdbcad96d1",
+      "sourceName": "contracts/CometStorage.sol",
+      "solcConfig": {
+        "version": "0.8.15",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CometStorage"
+      ]
+    },
+    "C:\\Users\\user\\BADF_Lab7\\contracts\\CometMath.sol": {
+      "lastModificationDate": 1684765846156,
+      "contentHash": "4b9f9cc7b75dd3bdef6e2d748d2fe660",
+      "sourceName": "contracts/CometMath.sol",
+      "solcConfig": {
+        "version": "0.8.15",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.15"
+      ],
+      "artifacts": [
+        "CometMath"
+      ]
+    },
+    "C:\\Users\\user\\BADF_Lab7\\contracts\\CometMainInterface.sol": {
+      "lastModificationDate": 1684765840850,
+      "contentHash": "d0b112107623a4ce1d0483401dab17e2",
+      "sourceName": "contracts/CometMainInterface.sol",
+      "solcConfig": {
+        "version": "0.8.15",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./CometCore.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.15"
+      ],
+      "artifacts": [
+        "CometMainInterface"
+      ]
+    },
+    "C:\\Users\\user\\BADF_Lab7\\contracts\\ERC20.sol": {
+      "lastModificationDate": 1684762396307,
+      "contentHash": "5bfb2e0b8f7c5791cca6f3c460fad9c4",
+      "sourceName": "contracts/ERC20.sol",
+      "solcConfig": {
+        "version": "0.8.15",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "C:\\Users\\user\\BADF_Lab7\\contracts\\IERC20.sol": {
+      "lastModificationDate": 1684523509960,
+      "contentHash": "57745aa42fa0a7872eba2499c32651b7",
+      "sourceName": "contracts/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.15",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    }
+  }
+}
