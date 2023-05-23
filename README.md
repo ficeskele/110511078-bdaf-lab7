@@ -1,4 +1,5 @@
 # 110511078-bdaf-lab7
+![image](https://github.com/ficeskele/110511078-bdaf-lab7/assets/124324882/aa800dec-fd7e-4eae-9e61-3f42f3082f50)
 
 
 On block number 17228670, [Compound USDC contract](https://etherscan.io/address/0xc3d688B66703497DAA19211EEdff47f25384cdc3#readProxyContract) roughly has 458k in Liquidity.
